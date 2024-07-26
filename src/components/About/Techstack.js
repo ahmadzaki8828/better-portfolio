@@ -21,7 +21,7 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiTypescript />
-        <h4>Javascript</h4>
+        <h4>Typescript</h4>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
