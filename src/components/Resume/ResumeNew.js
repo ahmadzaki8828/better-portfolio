@@ -2,11 +2,13 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/resume.pdf";
+import pdf from "../../Assets/resume.pdf"; // Ensure this path is correct
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+
+// Using an absolute URL for the workerSrc
+pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -15,6 +17,13 @@ function ResumeNew() {
     setWidth(window.innerWidth);
   }, []);
 
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = pdf;
+    link.download = "resume.pdf";
+    link.click();
+  };
+
   return (
     <div>
       <Container fluid className="resume-section">
@@ -22,8 +31,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
-            target="_blank"
+            onClick={handleDownload}
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
