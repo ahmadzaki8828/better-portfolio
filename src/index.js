@@ -2,6 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
+import ReactGa from "react-ga4";
+
+ReactGa.initialize("G-BRW4WQ3QV1");
+
+ReactGa.send({
+  hitType: "pageview",
+  page: window.location.pathname,
+});
 
 ReactDOM.render(
   <React.StrictMode>

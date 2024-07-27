@@ -16,10 +16,6 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import ReactGa from "react-ga";
-
-const TRACKING_ID = "G-BRW4WQ3QV1";
-ReactGa.initialize(TRACKING_ID);
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -31,11 +27,6 @@ function App() {
 
     return () => clearTimeout(timer);
   }, []);
-
-  useEffect(() => {
-    ReactGa.pageview(window.location.pathname);
-  }, []);
-
   return (
     <Router>
       <Preloader load={load} />
