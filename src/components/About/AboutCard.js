@@ -8,26 +8,26 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi, I am <span className="purple">Ahmad Zaki </span>
-            from <span className="purple"> Pakistan</span>
-            <br /> <br></br>I am currently pursuing my
-            <span className="purple">
-              {" "}
-              Bachelor in Computer Science(Honors)
-            </span>{" "}
-            at York University.<br></br>
+            Hi, I’m <span className="purple">Ahmad Zaki</span> from
+            <span className="purple"> Pakistan</span>. <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            I’m currently pursuing a
+            <span className="purple"> Bachelor’s in Computer Science </span>
+            at York University, where I’m advancing my skills and gaining deeper
+            insights into software engineering.
+            <br />
+            <br />
+            Beyond coding, I’m passionate about:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing games
+              <ImPointRight /> Playing gaming
             </li>
             <li className="about-activity">
               <ImPointRight /> Listening to podcasts
             </li>
             <li className="about-activity">
-              <ImPointRight /> Sports
+              <ImPointRight /> Playing sports
             </li>
           </ul>
 
@@ -35,7 +35,7 @@ function AboutCard() {
             "A program is never less than 90% complete, and never more than 95%
             complete."
           </p>
-          <footer className="blockquote-footer">Terry Baker</footer>
+          <footer className="blockquote-footer">Terry Baker, coder</footer>
         </blockquote>
       </Card.Body>
     </Card>

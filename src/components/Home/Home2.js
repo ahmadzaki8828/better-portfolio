@@ -15,36 +15,28 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming when I was a young due to my
-              passion for gaming.Ever since I have not been able to let
-              programing go
+              I discovered my love for programming early on through gaming,
+              which ignited my curiosity in technology. Since then, I’ve
+              dedicated myself to mastering development.
               <br />
-              <br />I am fluent in classics like
+              <br />
+              I’m skilled in
               <i>
-                <b className="purple"> Java, Javascript, C. </b>
+                <b className="purple"> Java, JavaScript, and TypeScript. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new&nbsp;
-              <i>
-                <b className="purple">Web Application and Products </b> and also
-                in areas related to
-                <b className="purple"> Artificial Intelligence.</b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js or Next.js</b> and
+              My focus areas include building innovative&nbsp;
               <i>
                 <b className="purple">
-                  {" "}
-                  Modern Javascript/Typescript Library and Frameworks
+                  Web Applications and AI-driven products
                 </b>
               </i>
-              &nbsp; like
+              &nbsp;with frameworks like
               <i>
-                <b className="purple"> React.js</b>
+                <b className="purple"> Node.js, Next.js, and React.js</b>
               </i>
+              .
             </p>
           </Col>
           <Col md={4} className="myAvtar">
