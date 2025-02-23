@@ -9,7 +9,17 @@ import {
   DiGit,
   DiJava,
 } from "react-icons/di";
-import { SiNextdotjs, SiPostgresql, SiTypescript } from "react-icons/si";
+import {
+  SiAmazonaws,
+  SiAmazondynamodb,
+  SiAmazons3,
+  SiAngularjs,
+  SiAwsamplify,
+  SiAwslambda,
+  SiNextdotjs,
+  SiPostgresql,
+  SiTypescript,
+} from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 
 function Techstack() {
@@ -34,6 +44,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
         <h4>Next JS</h4>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAngularjs />
+        <h4>Angular</h4>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
@@ -62,6 +76,26 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
         <h4>Java</h4>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazonaws />
+        <h4>AWS</h4>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAwsamplify />
+        <h4>AWS Amplify</h4>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAwslambda />
+        <h4>AWS Lambda</h4>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazondynamodb />
+        <h4>AWS DynamoDB</h4>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazons3 />
+        <h4>AWS S3</h4>
       </Col>
     </Row>
   );
