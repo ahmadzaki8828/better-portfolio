@@ -1,4 +1,3 @@
-
 .App {
   text-align: center;
   min-height: 100vh;
@@ -6,9 +5,9 @@
   flex-direction: column;
 }
 
-main {
-  flex: 1 0 auto;
-  display: flex;
+.content-wrap {
+  flex: 1;
+  background-image: var(--section-background-color);
 }
 
 
