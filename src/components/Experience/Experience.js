@@ -21,9 +21,9 @@ function Experience() {
               company="Royal Bank of Canada | Toronto, ON | Sep 2025 – Dec 2025"
               description={
                 <ul>
+                  <li>Resolved 100+ cloud support tickets over 70 days by diagnosing pipeline failures, configuration issues, and access problems, helping cut turnaround time and keep critical applications running smoothly</li>
                   <li>Supported cloud application reliability across Azure, AWS, and Databricks by monitoring pipelines, troubleshooting deployment issues, and maintaining system stability</li>
-                  <li>Automated infrastructure configuration and deployment using Terraform, improving consistency and reducing manual setup time across environments</li>
-                  <li>Collaborated with the Cloud Support team to analyze and resolve production incidents, enhancing application uptime and operational efficiency</li>
+                  <li>Improved support consistency by updating team playbooks with new troubleshooting steps based on resolved cases, helping engineers resolve recurring issues faster</li>
                   <li>Coordinated with cross-functional teams to test and validate new deployments, ensuring adherence to RBC’s cloud governance framework</li>
                 </ul>
               }
